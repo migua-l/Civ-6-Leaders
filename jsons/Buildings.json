@@ -1,0 +1,31 @@
+[
+{
+		"name": "Maurice Duplessis",
+		"cost": 1,
+		"hurryCostModifier": -100,
+            "requiredResource": "Leader",
+		"uniqueTo": "Canada",
+		"uniques": [
+"Can only be built [in capital]",
+"Only available <with [Leader]>",
+"Destroyed when the city is captured",
+"Unsellable",
+"Enables unique Hydro-Québec Dam"
+]	
+},
+{
+        "name": "Hydro-Québec Dam",
+	"uniqueTo": "Canada",
+        "cost": 1,
+        "happiness": 1,
+        "maintenance": 1,
+	"requiredTech": "Agriculture",
+        "uniques": [
+"[15]% Food is carried over after population increases [in this city]",
+"Only available <if [Maurice Duplessis] is constructed>",
+"Must be on [River]",
+"[-10]% tile improvement construction time",
+
+]
+    },
+]
