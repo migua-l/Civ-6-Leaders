@@ -1,6 +1,6 @@
 [
 {
-		"name": "Maurice Duplessis",
+		"name": "René Lévesque",
 		"cost": 1,
 		"hurryCostModifier": -100,
             "requiredResource": "Leader",
@@ -22,7 +22,7 @@
 	"requiredTech": "Agriculture",
         "uniques": [
 "[15]% Food is carried over after population increases [in this city]",
-"Only available <if [Maurice Duplessis] is constructed>",
+"Only available <if [René Lévesque] is constructed>",
 "Must be on [River]",
 "[-10]% tile improvement construction time",
 
